@@ -2,6 +2,8 @@
 # Bienvenidos a la Tarea de HTML y CSS
 
 ¡Hola a todos!
+![Captura de pantalla 2025-02-09 204531](https://github.com/user-attachments/assets/a27fe3bd-13e6-4c11-ac42-5e7b478e211d)
+![Captura de pantalla 2025-02-09 204636](https://github.com/user-attachments/assets/3cd183cb-c0f2-432c-845c-65c2f2b16422)
 
 En esta tarea, vamos a crear nuestra propia hoja de vida (CV) utilizando HTML y CSS. Este ejercicio está dividido en dos partes para que puedan enfocarse primero en la estructura y luego en el diseño.
 
