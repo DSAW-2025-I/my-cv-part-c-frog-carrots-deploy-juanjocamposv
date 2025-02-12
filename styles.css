@@ -1,0 +1,195 @@
+/* Enlace tu CSS al HTML */
+
+/* Aquí van tus estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    background-color: #3a45c3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 97.5%;
+    font-size: 1.8rem;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+.left-column{
+    padding: 20px;
+    width: 40%;
+    height: 528px;
+    background-color: #c7cccf;
+    border-radius: 10px;
+}
+.right-column{
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #8787ff;
+    border-radius: 10px;
+}
+h3, h4 {
+    color: #000000;
+}
+.left-column h3, .left-column h4 {
+    color: #4a90e2;
+    margin-top: 15px;
+}
+.main{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    max-width: 900px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-column {
+    background: #1c1c1c;
+    color: white;
+    width: 35%;
+    padding: 20px;
+}
+
+.left-column h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.left-column h3, .left-column h4 {
+    color: #4a90e2;
+    margin-top: 15px;
+}
+
+.left-column p, .left-column ul {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.left-column p strong::before {
+    content: '\2022';
+    color: #4a90e2;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.right-column {
+    width: 65%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+
+.right-column h3 {
+    color: #4a90e2;
+    border-bottom: 2px solid #4a90e2;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.right-column ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.right-column ul li {
+    margin-bottom: 8px;
+}
+
+.skill-container {
+    margin-top: 10px;
+}
+
+.skill {
+    background: #ddd;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+}
+
+.skill-bar {
+    height: 100%;
+    border-radius: 10px;
+    background: #4a90e2;
+}
+@media (max-width: 480px) {
+    body{
+        padding: 10px;
+    }
+    header {
+        font-size: 1.5em; 
+        padding: 15px;
+    }
+    header h1 {
+        font-size: 2em; 
+    }
+    .left-column, .right-column{
+        padding: 15px;
+    }
+    .left-column{
+        width: 100%;
+        height: 100%;
+    }
+    main{
+        flex-direction: column;
+    }
+
+}
+@media (min-width: 481px) and (max-width: 700px) {
+    .main {
+        flex-direction: row; 
+        flex-wrap: wrap; 
+    }
+    .left-column {
+        width: 100%;
+        height: 600px;
+    }
+    .right-column {
+        width: 60%; 
+    }
+}
+
+@media (min-width: 1080px) {
+    
+    .left-column {
+        width: 35%;
+        width: 65%; 
+    }
+}
